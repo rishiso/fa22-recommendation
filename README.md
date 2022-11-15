@@ -1,2 +1,3 @@
 # fa22-recommendation
-An ML-backed movie recommendation engine for groups of individuals
+
+A Neural Collaborative-Filtering approach to movie recommendation engines involving groups of individuals.
