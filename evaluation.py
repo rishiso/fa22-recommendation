@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+
 def root_mean_squared_error(truth: pd.core.series.Series, prediction: np.ndarray):
     assert truth.size == prediction.shape[0], "Truth and Prediction must have same number of entries" 
     truth = truth.to_numpy()
